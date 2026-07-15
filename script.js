@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const subject = document.getElementById('contactSubject').value || 'Portfolio Contact';
       const message = document.getElementById('contactMessage').value;
 
-      const mailtoLink = `mailto:AbdelrahmanEleraa@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+      const mailtoLink = `mailto:AbdelrahmanEldera3@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
 
       window.location.href = mailtoLink;
 
